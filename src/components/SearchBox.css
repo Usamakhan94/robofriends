@@ -1,0 +1,16 @@
+.search-bar{
+    outline: 0;
+    border: none;
+    font-size: 24px;
+    color: #444444;
+    background: aliceblue;
+    padding: 18px;
+    border-radius: 25px;
+    border: 2px solid rgb(146, 146, 218);
+}
+@media (max-width:575px){
+    .search-bar{
+        padding: 16px;
+        font-size: 13px;
+    }
+}

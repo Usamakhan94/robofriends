@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    border-radius: 20px;
+    box-shadow: 6px 9px 18px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    cursor: pointer;
+}
+.card-img{
+    max-width: 200px;
+    height: auto;
+}
+.card-info *{
+    margin-block: 5px;
+    color: #95b6f3;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-container:hover {
+    animation: bounce 1s ease forwards;
+  }
+  @keyframes bounce {
+      0% { transform:translateY(0%); }
+      40% { transform:translateY(-13%) scale(1.05); }
+      70% { transform:translateY(10%) scale(0.95); }
+      100% { transform:translateY(0); }
+  }
